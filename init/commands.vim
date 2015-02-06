@@ -1,9 +1,5 @@
 command CC CoffeeCompile vert
 
-" Leaders to edit and reload .vimrc file
-nmap <silent> <leader>ev :e $MYVIMRC<CR>
-nmap <silent> <leader>sv :so $MYVIMRC<CR>
-
 " Function to Toggle relative line numbers
 function! EnableRelativeNumbers()
     set number
@@ -14,6 +10,13 @@ function! DisableRelativeNumbers()
     set number
     set norelativenumber
 endfunc
+
+function StartLecture()
+ let g:solarized_termcolors=256
+ syntax enable
+ set background=light
+ colorscheme solarized
+endfunction
 
 " Control + n twice to Enable Relative Line Numbers
 nnoremap <C-n><C-n> :call EnableRelativeNumbers()<cr>

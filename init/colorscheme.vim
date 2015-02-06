@@ -11,9 +11,9 @@
 " colorscheme solarized
 
 " Normal Theme for Developing
-colorscheme monokai-chris
-set background=dark
-syntax enable
+" colorscheme monokai-chris
+" set background=dark
+" syntax enable
 
 
 " Feel free to override the colorscheme by adding a line to ~/.vimrc.local
