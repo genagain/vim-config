@@ -2,7 +2,7 @@
 " set background=dark
 " silent! colorscheme Tomorrow-Night
 " silent! let g:airline_theme='tomorrow'
-" colorscheme solarized
+colorscheme railscasts
 
 " Solarized Color Theme For Lectures
 " let g:solarized_termcolors=256
