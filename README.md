@@ -25,7 +25,7 @@ mind that this config has comma mapped as the leader key:
 
 # Launch Academy VIM Tutorial (For this config)
 
-[Learn how to use this VIM config]()
+[Learn how to use this VIM config](https://github.com/LaunchAcademy/vim-config/blob/master/LaunchVimReadme.md)
 
 ## Rails
 * [vim-rails](https://github.com/tpope/vim-rails) lets `gf` and `:Rextract` work on partials, highlights Rails functions.
