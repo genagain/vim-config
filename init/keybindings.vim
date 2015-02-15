@@ -188,3 +188,7 @@ map <D-F> :Ag<Space>
 
 " Convert a word to to let(:word) { double(:word) }
 nmap <leader>ld <Plug>LocalMakelet
+
+" Dictionary with VIM:
+nmap <silent> <leader>d :!open dict://<cword><CR><CR>
+
