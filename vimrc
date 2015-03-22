@@ -157,3 +157,4 @@ endif
 
 au BufRead,BufNewFile *.hamlc set ft=haml
 
+
