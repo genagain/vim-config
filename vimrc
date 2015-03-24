@@ -85,6 +85,8 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'YankRing.vim'
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'editorconfig/editorconfig-vim'
 
 "
 " Window Management
@@ -122,6 +124,7 @@ Plugin 'Blackrush/vim-gocode'
 Plugin 'rosstimson/scala-vim-support'
 Plugin 'guns/vim-clojure-static'
 Plugin 'chrisbra/csv.vim'
+Plugin 'elzr/vim-json'
 
 "
 " Development Tool Integration

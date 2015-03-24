@@ -78,6 +78,10 @@ mind that this config has comma mapped as the leader key:
 lets you view and cycle through your previous copy and paste registers on the fly
 	* After pasting use `<C-tab>` and `<C-S-tab>` to cycle through previously copied text.
 	* In normal mode press `F6` to view previously copied text. Select one to paste it.
+* [terryma/vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) gives you multiple cursor support, similar to Sublime Text.
+	* While in normal mode, press `<C-n>` to add a second cursor on the next occurance of the word or symbol under your cursor.
+	* Use `<C-v>` to make a vertical selection, then press `<C-n>` to convert the selection into multiple cursors.
+* [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) teaches vim how to follow the rules defined in `.editorconfig` files in your project, so that you can unify project preferences across multiple editors. See the [editorconfig homepage](http://editorconfig.org/) for more information.
 
 ## Window Management
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows with `<C-w>o`.  You can restore all the closed windows with the same command.  Useful with `:tabo` to close everything but what you're working on.
@@ -132,6 +136,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [scala-vim-support](https://github.com/rosstimson/scala-vim-support)
 * [vim-clojure-static](https://github.com/guns/vim-clojure-static)
 * [csv.vim](https://github.com/chrisbra/csv.vim)
+* [vim-json](https://github.com/elzr/vim-json)
 
 # Advanced
 
