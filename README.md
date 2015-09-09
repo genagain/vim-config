@@ -23,16 +23,13 @@ config.  Below is a broad overview of the included plugins and what they do.
 Each plugin is linked to its documentation page, when readng the docs keep in
 mind that this config has comma mapped as the leader key:
 
-# Launch Academy VIM Tutorial (For this config)
-
-[Learn how to use this VIM config](https://github.com/LaunchAcademy/vim-config/blob/master/LaunchVimReadme.md)
-
-## Rails
+## Ruby / Rails
 * [vim-rails](https://github.com/tpope/vim-rails) lets `gf` and `:Rextract` work on partials, highlights Rails functions.
 * [vim-endwise](https://github.com/tpope/vim-endwise) automatically puts in `end`s for your` if` and `do` blocks.
 * [vim-ruby-refactoring](https://github.com/ecomba/vim-ruby-refactoring) gives some IDE-like refactoring support to vim.  A favorite is `:RExtractLet` (aliased as `,rel`) which takes a local variable in a spec and makes it into a let statement. Others are `:RAddParameter`, `:RInlineTemp`, `:RConvertPostConditional`, `:RExtractConstant`, `:RExtractLocalVariable`, `:RRenameLocalVariable`, `:RRenameInstanceVariable`, `:RExtractMethod`.  They can also be accessed with the leader key followed by the capital letters in the command, so `:RAlphaBeta` becomes `,rab`.
-* [test_server](https://github.com/brysgo/test_server) lets you use F9 thru F12 to run specs and report the output in vim.
 * [vim-blockle](https://github.com/jgdavey/vim-blockle) lets you change a `do..end` into a `{..}` by pressing `b` with the cursor on part of the block.
+* [rbenv.vim](https://github.com/tpope/vim-rbenv) adds a small amount of integration with rbenv.
+* [rake.vim](https://github.com/tpope/vim-rake) gives you a lot of the same niceties that you get from rails.vim except for non-Rails Ruby projects.
 * Convert a line with `local_variable_foo` to `let(:local_variable_foo) { double(:local_variable_foo) }` with `,ld`.  Just place your cursor anywhere on the variable and press `,ld`.
 
 ## General Editing
@@ -82,6 +79,8 @@ lets you view and cycle through your previous copy and paste registers on the fl
 	* While in normal mode, press `<C-n>` to add a second cursor on the next occurance of the word or symbol under your cursor.
 	* Use `<C-v>` to make a vertical selection, then press `<C-n>` to convert the selection into multiple cursors.
 * [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) teaches vim how to follow the rules defined in `.editorconfig` files in your project, so that you can unify project preferences across multiple editors. See the [editorconfig homepage](http://editorconfig.org/) for more information.
+* [projectionist.vim](https://github.com/tpope/vim-projectionist) gives you the ability to jump between related files, such as between a code file and its spec.
+	* It also supports adding a `.projections.json` file to your project so you can teach Vim how to find the spec for the current source file. See the [README](https://github.com/tpope/vim-projectionist) for more details.
 
 ## Window Management
 * [ZoomWin](http://www.vim.org/scripts/script.php?script_id=508) lets you close all other windows with `<C-w>o`.  You can restore all the closed windows with the same command.  Useful with `:tabo` to close everything but what you're working on.
@@ -110,6 +109,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [vim-dispatch](https://github.com/tpope/vim-dispatch) supplies `:Make` and `:Make!` which run in the background instead of blocking like `:make`.
 * [ConqueTerm](http://code.google.com/p/conque/) lets your run interactive commands within vim.  Try `:ConqueTerm bash`.
 * [vitality.vim](https://github.com/sjl/vitality.vim) makes Vim play nicely with iTerm2 and tmux. It adds things like cursor change on insert mode and focus-lost detection for triggering auto-save.
+* [test_server](https://github.com/brysgo/test_server) lets you use F9 thru F12 to run specs and report the output in vim.
 
 ## Colorschemes
 * [Vivid Chalk](https://github.com/tpope/vim-vividchalk)
@@ -137,6 +137,8 @@ lets you view and cycle through your previous copy and paste registers on the fl
 * [vim-clojure-static](https://github.com/guns/vim-clojure-static)
 * [csv.vim](https://github.com/chrisbra/csv.vim)
 * [vim-json](https://github.com/elzr/vim-json)
+* [vim-jst](https://github.com/briancollins/vim-jst)
+* [vim-jade](https://github.com/digitaltoad/vim-jade)
 
 # Advanced
 
